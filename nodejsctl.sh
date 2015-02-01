@@ -6,7 +6,6 @@ export NODE_ENV='production'
 #set ulimit
 ulimit -c unlimited
 
-cd `dirname $0`/..
 NODEJS='node --harmony'
 BASE_HOME=`pwd`
 PROJECT_NAME=`basename ${BASE_HOME}`

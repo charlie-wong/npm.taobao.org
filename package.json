@@ -10,7 +10,9 @@
     "cnpm": "npm install --registry=http://r.cnpmjs.org"
   },
   "dependencies": {
-    "cnpmjs.org": "2.0.0-rc.12"
+    "cnpmjs.org": "~2.0.0-rc.12",
+    "oss-cnpm": "~1.0.1",
+    "cfork": "~1.2.2"
   },
   "devDependencies": {
   },
