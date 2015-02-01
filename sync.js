@@ -1,4 +1,6 @@
 var config = require('./config');
-require('cnpmjs.org').startSync(config);
+var mkdirp = require('mkdirp');
+mkdirp.sync(config.logdir);
+mkdirp.sync(config.uploadDir);
 
-console.log('sync worker start!');
+require('cnpmjs.org').startSync(config);
