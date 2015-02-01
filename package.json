@@ -1,0 +1,35 @@
+{
+  "name": "npm.taobao.org",
+  "version": "1.0.0",
+  "description": "https://npm.taobao.org",
+  "main": "index.js",
+  "scripts": {
+    "start": "./nodejsctl.sh start",
+    "stop": "./nodejsctl.sh stop",
+    "status": "./nodejsctl.sh status",
+    "cnpm": "npm install --registry=http://r.cnpmjs.org"
+  },
+  "dependencies": {
+    "cnpmjs.org": "2.0.0-rc.12"
+  },
+  "devDependencies": {
+  },
+  "homepage": "https://github.com/cnpm/npm.taobao.org",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cnpm/npm.taobao.org.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cnpm/npm.taobao.org/issues",
+    "email": "m@fengmk2.com"
+  },
+  "keywords": [
+    "npm.taobao.org"
+  ],
+  "engines": {
+    "node": ">=0.11.14"
+  },
+  "author": "fengmk2 <m@fengmk2.com> (http://fengmk2.com)",
+  "private": true,
+  "license": "MIT"
+}
