@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "cfork": "~1.2.2",
-    "cnpmjs.org": "~2.2.0",
+    "cnpmjs.org": "~2.2.1",
     "mkdirp": "~0.5.0",
-    "oss-cnpm": "~1.0.1"
+    "oss-cnpm": "~2.0.1"
   },
   "devDependencies": {},
   "homepage": "https://github.com/cnpm/npm.taobao.org",
