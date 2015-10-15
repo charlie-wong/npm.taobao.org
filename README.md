@@ -2,17 +2,23 @@
 
 #### 这是一个完整 `npmjs.org` 镜像，你可以用此代替官方版本(只读)，同步频率目前为 **10分钟** 一次以保证尽量与官方服务同步。
 
-* 当前 [registry.npm.taobao.org](//registry.npm.taobao.org) 是从 [registry.npmjs.org](//registry.npmjs.org) 进行全量同步的.
+* 当前 [registry.npm.taobao.org](//registry.npm.taobao.org) 是从 [r.cnpmjs.org](//r.cnpmjs.org) 进行全量同步的.
 * 当前 [npm.taobao.org](/) 运行版本是: cnpmjs.org@<span id="app-version"></span>
-* 本系统运行在 [io.js](https://iojs.org)@<span id="node-version"></span> 上.
+* 本系统运行在 [Node.js](https://nodejs.org)@<span id="node-version"></span> 上.
 * 开源镜像: http://npm.taobao.org/mirrors
-* iojs.org/dist 镜像: http://npm.taobao.org/mirrors/iojs
-* nodejs.org/dist 镜像: http://npm.taobao.org/mirrors/node
+* Node.js 镜像: http://npm.taobao.org/mirrors/node
+* alinode 镜像: http://npm.taobao.org/mirrors/alinode
 * phantomjs 镜像: http://npm.taobao.org/mirrors/phantomjs
 * ChromeDriver 镜像: http://npm.taobao.org/mirrors/chromedriver
+* OperaDriver 镜像: http://npm.taobao.org/mirrors/operadriver
+* Selenium 镜像: http://npm.taobao.org/mirrors/selenium
 * Node.js 文档镜像: http://npm.taobao.org/mirrors/node/latest/docs/api/index.html
-* io.js 文档镜像: http://npm.taobao.org/mirrors/iojs/latest/doc/api/index.html
+* NPM 镜像: https://npm.taobao.org/mirrors/npm/
+* electron 镜像: https://npm.taobao.org/mirrors/electron/
+* node-inspector 镜像: https://npm.taobao.org/mirrors/node-inspector/
 
+
+<div class="ant-table">
 <table class="downloads">
   <tbody>
     <tr>
@@ -32,12 +38,17 @@
     </tr>
   </tbody>
 </table>
+</div>
 
 <div class="sync" style="display:none;">
   <h3>同步状态</h3>
   <p id="sync-model"></p>
   <p>上次同步完成时间: <span id="last-sync-time"></span></p>
-  <p class="syncing alert alert-info">同步进程正在运行中...</p>
+  <div class="ant-alert ant-alert-info syncing">
+    <span class="anticon ant-alert-icon anticon-info-circle"></span>
+    <span class="ant-alert-description">同步进程正在运行中...</span>
+  </div>
+  <div class="ant-table">
   <table class="sync-status">
     <tbody>
       <tr>
@@ -52,6 +63,7 @@
       </tr>
     </tbody>
   </table>
+  </div>
 </div>
 
 <script src="/js/readme.js"></script>
