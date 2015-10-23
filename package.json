@@ -12,7 +12,7 @@
   "dependencies": {
     "cfork": "~1.3.1",
     "cnpmjs.org": "~2.4.0",
-    "mkdirp": "~0.5.0",
+    "mkdirp": "~0.5.1",
     "oss-cnpm": "~2.0.1"
   },
   "devDependencies": {},
