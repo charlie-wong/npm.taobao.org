@@ -13,7 +13,8 @@ export NODE_LOG_DIR=/tmp/
 NODEJS='node'
 BASE_HOME=`pwd`
 PROJECT_NAME=`basename ${BASE_HOME}`
-STDOUT_LOG=`$NODEJS -p "require('path').join(require('$BASE_HOME/config').logdir, 'nodejs_stdout.log')"`
+STDOUT_LOG=`$NODEJS -e "console.log(require('path').join(require('$BASE_HOME/config').logdir, 'nodejs_stdout.log'));\
+process.exit(0);"`
 NODE_DISPATH_PATH=${BASE_HOME}/dispatch.js
 PROG_NAME=$0
 ACTION=$1
