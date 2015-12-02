@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "cfork": "~1.4.0",
-    "cnpmjs.org": "~2.5.0",
+    "cnpmjs.org": "~2.5.1",
     "mkdirp": "~0.5.1",
     "oss-cnpm": "~2.0.1"
   },
