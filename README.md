@@ -133,3 +133,7 @@ $ open https://npm.taobao.org/sync/connect
 ```bash
 $ cnpm info connect
 ```
+
+## 赞助商
+
+- [![阿里云](https://static.aliyun.com/images/www-summerwind/logo.gif)](http://click.aliyun.com/m/4288/)
