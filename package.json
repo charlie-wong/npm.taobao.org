@@ -13,7 +13,7 @@
     "cfork": "~1.4.0",
     "cnpmjs.org": "~2.9.3",
     "mkdirp": "~0.5.1",
-    "oss-cnpm": "~2.0.1"
+    "oss-cnpm": "~2.1.0"
   },
   "devDependencies": {},
   "homepage": "https://github.com/cnpm/npm.taobao.org",
