@@ -10,10 +10,10 @@
     "cnpm": "npm install --registry=http://r.cnpmjs.org"
   },
   "dependencies": {
-    "cfork": "~1.5.1",
-    "cnpmjs.org": "~2.12.0",
-    "mkdirp": "~0.5.1",
-    "oss-cnpm": "~2.1.0"
+    "cfork": "^1.5.1",
+    "cnpmjs.org": "^2.12.0",
+    "mkdirp": "^0.5.1",
+    "oss-cnpm": "^2.1.0"
   },
   "devDependencies": {},
   "homepage": "https://github.com/cnpm/npm.taobao.org",
