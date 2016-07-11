@@ -7,13 +7,16 @@
     "start": "./nodejsctl.sh start",
     "stop": "./nodejsctl.sh stop",
     "status": "./nodejsctl.sh status",
-    "cnpm": "npm install --registry=http://r.cnpmjs.org"
+    "cnpm": "npm install --registry=http://r.cnpmjs.org",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "cfork": "^1.5.1",
     "cnpmjs.org": "^2.12.0",
     "mkdirp": "^0.5.1",
-    "oss-cnpm": "^2.1.0"
+    "oss-cnpm": "^2.1.0",
+    "snyk": "^1.17.0"
   },
   "devDependencies": {},
   "homepage": "https://github.com/cnpm/npm.taobao.org",
@@ -33,5 +36,6 @@
   },
   "author": "fengmk2 <m@fengmk2.com> (http://fengmk2.com)",
   "private": true,
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
