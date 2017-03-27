@@ -1,18 +1,4 @@
-/**!
- * npm.taobao.org - dispatch.js
- *
- * Copyright(c) cnpm and other contributors.
- * MIT Licensed
- *
- * Authors:
- *  fengmk2 <m@fengmk2.com> (http://fengmk2.com)
- */
-
 'use strict';
-
-/**
- * Module dependencies.
- */
 
 var childProcess = require('child_process');
 var path = require('path');
