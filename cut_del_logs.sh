@@ -13,7 +13,7 @@ mv ${LOGS_PATH}/web.access.log ${LOGS_PATH}/web.access.log.${YESTERDAY}
 kill -USR1 `ps axu | grep "nginx: master process" | grep -v grep | awk '{print $2}'`
 
 cd ${LOGS_PATH}
-find . -mtime +7 -name "*20[1-9][3-9]*" | xargs rm -f
+find . -mtime +2 -name "*20[1-9][3-9]*" | xargs rm -f
 
 exit 0
 
